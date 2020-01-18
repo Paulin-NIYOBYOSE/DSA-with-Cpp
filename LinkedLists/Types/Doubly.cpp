@@ -20,8 +20,8 @@ private:
 
 public:
     // Constructor to initialize an empty list
-    DoublyLinkedList() : head(nullptr), tail(nullptr) {}
-
+    DoublyLinkedList() : head(nullptr), tail(nullptr) {
+    }
     // Function to insert at the beginning
     void insertAtBeginning(int value) {
         Node* newNode = new Node(value); // Create a new node with the given value
@@ -50,9 +50,8 @@ public:
     void insertAtPosition(int value, int position) {
         if (position < 1) { // Check if the position is invalid
             cout << "Invalid position" << endl; // Print an error message
-            return; // Exit the function
+            return; // Exit the function is position is invalid 
         }
-
         if (position == 1) { // If the position is the beginning
             insertAtBeginning(value); // Use the insertAtBeginning function
             return; // Exit the function
