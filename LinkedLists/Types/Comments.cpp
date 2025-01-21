@@ -83,7 +83,7 @@ public:
             head = nullptr; // Set the head to nullptr
             return;
         }
-        Node* current = head; // Start from the head of the list
+        Node* current = head; // Start from the head of the list    
         while (current->next->next != nullptr) { // Traverse to the second-to-last node
             current = current->next; // Move to the next node
         }
