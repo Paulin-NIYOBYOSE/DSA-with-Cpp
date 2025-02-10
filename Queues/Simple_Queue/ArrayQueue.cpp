@@ -27,7 +27,7 @@ public:
         }
         front++;
     }
-
+    
     void display() {
         if (front == -1 || front > rear) {
             std::cout << "Queue is empty\n";
