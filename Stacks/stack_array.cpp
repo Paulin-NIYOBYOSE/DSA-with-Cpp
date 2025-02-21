@@ -5,7 +5,7 @@ using namespace std;
 
 class Stack {
 private:
-    int arr[SIZE];  // Array to store stack elements
+    int arr[SIZE]; // Array to store stack elements
     int top;  // Variable to track the top of the stack
 
 public:
