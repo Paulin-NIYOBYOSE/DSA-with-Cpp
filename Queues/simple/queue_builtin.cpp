@@ -16,7 +16,7 @@ int main() {
     // Dequeue (Remove elements from the front)
     q.pop();
     cout << "Front after pop: " << q.front() << endl;  // 20
-
+    
     // Queue size
     cout << "Queue size: " << q.size() << endl;  // 2
 
