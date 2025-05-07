@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdexcept>
 
-#define MAX 5;
+#define MAX 5
 
 class Stack{
   private:
@@ -23,12 +23,12 @@ class Stack{
     }
 
     //pop
-    int pop(){
+    void pop(){
       if (top == -1){
         std::cout<<"Stack underflow"<<std::endl;
-        return -1;
+        return;
       }
-      return array[top--  ];
+      array[top--];
     }
 
     int peek(){

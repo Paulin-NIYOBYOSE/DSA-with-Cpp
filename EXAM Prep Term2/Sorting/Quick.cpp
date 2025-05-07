@@ -1,9 +1,6 @@
-//
-// Created by paulin on 3/26/25.
-//
-
-#include "Quick.h"
+#include <stdio.h>
 #include <iostream>
+
 using namespace std;
 
 int partition(int arr[], int low, int high) {
